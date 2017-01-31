@@ -1,12 +1,10 @@
 {
 	"name": "hgati/BusinessKing_AttributeQuickAdd",
 	"type": "magento-module",
-	"license":"OSL-3.0",
-	"description": "fork BusinessKing_AttributeQuickAdd",
-	"authors":[
-		{
-			"name":"hgati",
-			"email":"cobays@gmail.com"
-		}
-	]
+	"extra": {
+		"map": [
+			["app/code/local/BusinessKing/AttributeQuickAdd", "app/code/local/BusinessKing/AttributeQuickAdd"],
+			["app/etc/modules", "app/etc/modules"]
+		]
+	}
 }
